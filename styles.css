@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #40A578;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+section {
+    width: 45%;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-left: auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #7ABA78;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#seller-properties, #buyer-properties {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.property-widget {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.property-widget:last-child {
+    border-bottom: none;
+}
+
+#filters {
+    border: 3px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+}

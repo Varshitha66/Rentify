@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Dashboard - Real Estate Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:#F1F1F1;">
+    <header>
+        <h1>Buyer Dashboard</h1>
+    </header>
+    <main>
+        <section id="buyer-section">
+            <h2>Available Properties</h2>
+            <div id="filters">
+                <label for="filter-place">Place:</label>
+                <br>
+                <input type="text" id="filter-place" name="filter-place" style="padding:3px;">
+                <br>
+
+                <label for="filter-bedrooms">Bedrooms:</label>
+                <br>
+                <input type="number" id="filter-bedrooms" name="filter-bedrooms" style="padding:3px;">
+                <br>
+
+                <label for="filter-bathrooms">Bathrooms:</label>
+                <br>
+                <input type="number" id="filter-bathrooms" name="filter-bathrooms" style="padding:3px;">
+                <br>
+
+                <button id="apply-filters">Apply Filters</button>
+            </div>
+            <div id="buyer-properties">
+                <!-- Properties available for buyers will be listed here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard - Real Estate Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Seller Dashboard</h1>
+    </header>
+    <main>
+        <section id="seller-section">
+            <h2>Post Your Property</h2>
+            <form id="property-form">
+                <label for="place">Place:</label>
+                <input type="text" id="place" name="place" required>
+
+                <label for="area">Area (sq ft):</label>
+                <input type="number" id="area" name="area" required>
+
+                <label for="bedrooms">Number of Bedrooms:</label>
+                <input type="number" id="bedrooms" name="bedrooms" required>
+
+                <label for="bathrooms">Number of Bathrooms:</label>
+                <input type="number" id="bathrooms" name="bathrooms" required>
+
+                <label for="nearby">Nearby (Hospitals, Colleges, etc.):</label>
+                <textarea id="nearby" name="nearby" required></textarea>
+
+                <button type="submit">Post Property</button>
+            </form>
+
+            <h2>Your Posted Properties</h2>
+            <div id="seller-properties">
+                <!-- Seller's properties will be listed here -->
+            </div>
+        </section>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>
